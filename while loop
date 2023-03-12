@@ -1,0 +1,15 @@
+command= ""
+while command != "quit":
+    command=input("> ").lower()
+    if command == "start":
+        print("CAR STARTED ..... ")
+    elif command == "stop":
+        print("CAR STOPPED ....")
+    elif command == "help": 
+        print(""" 
+        start - to start the car
+        stop - to stop the car
+        help - to know the details 
+        """)
+    else : 
+        print("We dont get whats happening")
